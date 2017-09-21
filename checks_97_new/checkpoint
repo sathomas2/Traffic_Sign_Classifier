@@ -1,0 +1,4 @@
+model_checkpoint_path: "tsigns.ckpt"
+all_model_checkpoint_paths: "../checks_95/tsigns.ckpt"
+all_model_checkpoint_paths: "../checks_96/tsigns.ckpt"
+all_model_checkpoint_paths: "tsigns.ckpt"
