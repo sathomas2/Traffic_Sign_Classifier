@@ -24,6 +24,7 @@ Lots of images seem to repeat in the training set, such as this Roundabout Manda
  <p></p> 
 Furthermore, a lot of images in all sets, but especially the validation set, seem to have been artificially darkened or captured in less than desirable light conditions.
 
+
 **3)** Preprocess training, validation, and test sets, including normalization and adding bounding boxes to keep only the relevant information in each image.
 
 10 before and after bounding box preprocessing on images from the validation set:
