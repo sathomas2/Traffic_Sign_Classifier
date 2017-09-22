@@ -82,7 +82,7 @@ I arrived at the above architecture after lots of experimentation. For example, 
 
 The cost function is softmax cross entropy. I used the Adam Optimizer with a learning rate of 0.0001 and batch size of 32.
 
-**7)** Analyze the results by caclulating the top-5 softmax probabilities for each image in the test set. Also calculate precision and recall to flag labels that the network has problems with, which helps during experimentation when trying to find the best data augmentation techniques. This is done in detail in the notebook, but the final results are:
+**6)** Analyze the results by caclulating the top-5 softmax probabilities for each image in the test set. Also calculate precision and recall to flag labels that the network has problems with, which helps during experimentation when trying to find the best data augmentation techniques. This is done in detail in the notebook, but the final results are:
 
 | Dataset     | Final Accuracy | 
 |:--------------:|:-------------:| 
@@ -90,7 +90,7 @@ The cost function is softmax cross entropy. I used the Adam Optimizer with a lea
 | Validation    | 97.1% | 
 | Test | 93.8% |  
 
-**6)** Test the network on new images found on the web.
+**7)** Test the network on new images found on the web.
 
  <figure>
  <img src="readme_images/roundabout_web_softmax.png" />
